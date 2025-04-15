@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Header Avanti</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">AV<span>A</span>NTI</div>
+
+    <div class="search-box">
+      <input type="text" placeholder="Digite aqui o que você procura" />
+      <button><img src="https://img.icons8.com/ios-glyphs/30/search--v1.png"/></button>
+    </div>
+    <div id="resultado-busca" style="margin-top: 10px; font-size: 14px; color: #333;"></div> 
+
+
+    <div class="user-area">
+      <div class="user">
+        <img src="https://img.icons8.com/ios-filled/24/user.png"/>
+        <span>Olá, <strong>Nome cliente!</strong></span>
+      </div>
+
+      <div class="cart">
+        <img src="https://img.icons8.com/ios-filled/24/shopping-cart.png"/>
+        <span class="cart-count">1</span>
+      </div>
+    </div>
+  </header>
+  
+  <section class="menu-categorias">
+  <div class="container-menu">
+    <div class="categoria-principal">
+      <span class="icone-menu">&#9776;</span>
+      <span class="texto-menu"><strong>Todas as Categorias</strong></span>
+    </div>
+    <nav class="nav-departamentos">
+      <a href="#">Departamento</a>
+      <a href="#">Departamento</a>
+      <a href="#">Departamento</a>
+      <a href="#">Departamento</a>
+      <a href="#">Departamento</a>
+      <a href="#">Departamento</a>
+      <a href="#">Departamento</a>
+      <a href="#">Departamento</a>
+    </nav>
+  </div>
+</section>
+  
+  <section class="banner">
+  <img src="img/banner1.PNG" alt="Banner promocional">
+</section>
+
+
+  <section id="lancamentos">
+  <div class="header-lancamentos">
+    <h2>Lançamentos</h2>
+    <a href="#">Ver mais</a>
+  </div>
+
+  <div class="carousel-container">
+    <button class="carousel-btn left" onclick="scrollCarousel(-1)">&#10094;</button>
+
+    <div class="carousel" id="carousel">
+      <!-- Card 1 -->
+      <div class="card">
+        <span class="tag">Novo</span>
+        <img src="img/fotoproduto.jpg" alt="Produto">
+        <h3>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit</h3>
+        <p class="preco-antigo">R$ 130,00</p>
+        <p class="preco">R$ 79,90 <span class="desconto">-38%</span></p>
+        <p class="parcelamento">Ou em até 10x de R$ 7,90</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <span class="tag">Novo</span>
+        <img src="img/fotoproduto.jpg" alt="Produto">
+        <h3>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit</h3>
+        <p class="preco-antigo">R$ 130,00</p>
+        <p class="preco">R$ 79,90 <span class="desconto">-38%</span></p>
+        <p class="parcelamento">Ou em até 10x de R$ 7,90</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <span class="tag">Novo</span>
+        <img src="img/fotoproduto.jpg" alt="Produto">
+        <h3>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit</h3>
+        <p class="preco-antigo">R$ 130,00</p>
+        <p class="preco">R$ 79,90 <span class="desconto">-38%</span></p>
+        <p class="parcelamento">Ou em até 10x de R$ 7,90</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <span class="tag">Novo</span>
+        <img src="img/fotoproduto.jpg" alt="Produto">
+        <h3>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit</h3>
+        <p class="preco-antigo">R$ 130,00</p>
+        <p class="preco">R$ 79,90 <span class="desconto">-38%</span></p>
+        <p class="parcelamento">Ou em até 10x de R$ 7,90</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card">
+        <span class="tag">Novo</span>
+        <img src="img/fotoproduto.jpg" alt="Produto">
+        <h3>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit</h3>
+        <p class="preco-antigo">R$ 130,00</p>
+        <p class="preco">R$ 79,90 <span class="desconto">-38%</span></p>
+        <p class="parcelamento">Ou em até 10x de R$ 7,90</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card">
+        <span class="tag">Novo</span>
+        <img src="img/fotoproduto.jpg" alt="Produto">
+        <h3>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit</h3>
+        <p class="preco-antigo">R$ 130,00</p>
+        <p class="preco">R$ 79,90 <span class="desconto">-38%</span></p>
+        <p class="parcelamento">Ou em até 10x de R$ 7,90</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+ </div>
+
+    <button class="carousel-btn right" onclick="scrollCarousel(1)">&#10095;</button>
+  </div>
+
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+
+
+  <section id="produto">
+
+
+  <div class="produto-container">
+    <div class="imagem-produto">
+      <img src="img/fotocanecaavanti.PNG" alt="Produto A" />
+    </div>
+    <div class="info-produto">
+      <h2>LOREM IPSUM</h2>
+      <p>
+        Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut
+        eleifend viverra. Cras efficitur volutpat dui, in lobortis metus l
+</div>
+        
+
+
+ 
+        
+<section id="contato">
+  <div class="overlay">
+    <p>Entre em contato conosco e verifique a disponibilidade para sua região!</p>
+  </div>
+</section>
+
+
+<section id="lancamentos">
+  <div class="header-lancamentos">
+    <h2>Lançamentos</h2>
+    <a href="#">Ver mais</a>
+  </div>
+
+  <div class="carousel-container">
+    <button class="carousel-btn left" onclick="scrollCarousel(-1)">&#10094;</button>
+
+    <div class="carousel" id="carousel">
+      <!-- Card 1 -->
+      <div class="card">
+        <span class="tag">Novo</span>
+        <img src="img/fotoproduto.jpg" alt="Produto">
+        <h3>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit</h3>
+        <p class="preco-antigo">R$ 130,00</p>
+        <p class="preco">R$ 79,90 <span class="desconto">-38%</span></p>
+        <p class="parcelamento">Ou em até 10x de R$ 7,90</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <span class="tag">Novo</span>
+        <img src="img/fotoproduto.jpg" alt="Produto">
+        <h3>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit</h3>
+        <p class="preco-antigo">R$ 130,00</p>
+        <p class="preco">R$ 79,90 <span class="desconto">-38%</span></p>
+        <p class="parcelamento">Ou em até 10x de R$ 7,90</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <span class="tag">Novo</span>
+        <img src="img/fotoproduto.jpg" alt="Produto">
+        <h3>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit</h3>
+        <p class="preco-antigo">R$ 130,00</p>
+        <p class="preco">R$ 79,90 <span class="desconto">-38%</span></p>
+        <p class="parcelamento">Ou em até 10x de R$ 7,90</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <span class="tag">Novo</span>
+        <img src="img/fotoproduto.jpg" alt="Produto">
+        <h3>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit</h3>
+        <p class="preco-antigo">R$ 130,00</p>
+        <p class="preco">R$ 79,90 <span class="desconto">-38%</span></p>
+        <p class="parcelamento">Ou em até 10x de R$ 7,90</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card">
+        <span class="tag">Novo</span>
+        <img src="img/fotoproduto.jpg" alt="Produto">
+        <h3>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit</h3>
+        <p class="preco-antigo">R$ 130,00</p>
+        <p class="preco">R$ 79,90 <span class="desconto">-38%</span></p>
+        <p class="parcelamento">Ou em até 10x de R$ 7,90</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card">
+        <span class="tag">Novo</span>
+        <img src="img/fotoproduto.jpg" alt="Produto">
+        <h3>Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit</h3>
+        <p class="preco-antigo">R$ 130,00</p>
+        <p class="preco">R$ 79,90 <span class="desconto">-38%</span></p>
+        <p class="parcelamento">Ou em até 10x de R$ 7,90</p>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+ </div>
+
+    <button class="carousel-btn right" onclick="scrollCarousel(1)">&#10095;</button>
+  </div>
+
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+
+<section id="news">
+  <h3>Cadastre-se na nossa <a href="#">newsletter</a></h3>
+  <div class="form-container">
+    <input type="text" placeholder="Digite seu nome">
+    <input type="email" placeholder="Digite seu e-mail">
+    <label class="checkbox">
+      <input type="checkbox">
+      Estou de acordo com a Política de Privacidade
+    </label>
+    <button>Cadastrar</button>
+  </div>
+</section>
+
+      
+      
+      
+      
+      <footer id="footer">
+  <div class="footer-container">
+    <div class="footer-col logo-redes">
+      <h2>AVANTI</h2>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Institucional</h4>
+      <p>Sobre Nós</p>
+      <p>Nossas Lojas</p>
+      <p>Privacidade e Segurança</p>
+      <p>Termos e Condições</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Central de ajuda</h4>
+      <p>Fale Conosco</p>
+      <p>Frete e Entrega</p>
+      <p>Trocas e Devoluções</p>
+      <p>Formas de Pagamento</p>
+      <p>FAQ</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Atendimento</h4>
+      <p><strong>Telefone:</strong> (00) 1234-5678</p>
+      <p><strong>E-mail:</strong> exemplo@exemplo.com.br</p>
+      <p><strong>Horário de atendimento:</strong><br>
+         Segunda a Sábado: 07h00 às 21h00<br>
+         Domingos e Feriados: 07h00 às 21h00</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <img src="https://img.icons8.com/ios/40/000000/mastercard-logo.png" alt="Mastercard" />
+    <img src="https://img.icons8.com/ios/40/000000/visa.png" alt="Visa" />
+    <img src="https://img.icons8.com/ios/40/000000/amex.png" alt="Amex" />
+    <img src="https://img.icons8.com/ios/40/000000/elo.png" alt="Elo" />
+    <img src="https://img.icons8.com/ios/40/000000/diners-club.png" alt="Diners" />
+    <img src="https://img.icons8.com/ios/40/000000/paypal.png" alt="Paypal" />
+    <img src="https://img.icons8.com/ios/40/000000/barcode.png" alt="Boleto" />
+  </div>
+</footer>
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+<script>
+  const botaoBusca = document.querySelector('.search-box button');
+  const campoBusca = document.querySelector('.search-box input');
+  const resultadoBusca = document.getElementById('resultado-busca');
+
+  botaoBusca.addEventListener('click', () => {
+    const termo = campoBusca.value.trim();
+    if (termo) {
+      resultadoBusca.textContent = `Você buscou por: '${termo}'`;
+    } else {
+      resultadoBusca.textContent = '';
+    }
+  });
+</script>
+
+
+
+</body>
+</html>
